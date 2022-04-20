@@ -1,4 +1,6 @@
- class TextFX {
+
+{
+class TextFX {
         constructor(el) {
             this.DOM = {el: el};
             this.DOM.texts = [...this.DOM.el.querySelectorAll('.content__text')];
