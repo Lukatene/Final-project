@@ -17,7 +17,6 @@ function handleMouseMove(e) {
     span.style.transform = `translate(${speedFast}px)`
   })
 }
-//we need to recalculate width when the window is resized
 function handleWindowResize() {
   width = window.innerWidth;
 }
